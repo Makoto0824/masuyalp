@@ -57,7 +57,7 @@ export default function Reviews() {
                 <h3 className="font-medium text-gray-800">{review.name}</h3>
                 <span className="text-yellow-500 text-lg">{renderStars(review.rating)}</span>
               </div>
-              <p className="text-gray-600 mb-4 leading-relaxed">"{review.comment}"</p>
+              <p className="text-gray-600 mb-4 leading-relaxed">&ldquo;{review.comment}&rdquo;</p>
               <p className="text-sm text-gray-500">{review.date}</p>
             </div>
           ))}
