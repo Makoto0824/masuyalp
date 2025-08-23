@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 串カツ酒場 枡や - ランディングページ
 
-## Getting Started
+湘南台の串カツ酒場「枡や」の公式ランディングページです。本格的な串カツの味と温かいおもてなしを紹介する、モダンでレスポンシブな Web サイトです。
 
-First, run the development server:
+## 🍢 特徴
+
+- **本格串カツ**: 大阪仕込みの本格的な串カツを湘南台でお楽しみいただけます
+- **温かいおもてなし**: 地元密着の親しみやすい居酒屋として、家族連れから一人飲みまで歓迎
+- **便利なアクセス**: 湘南台駅徒歩 1 分の好立地
+- **手頃な価格**: 親しみやすい価格で本格的な味をお届け
+
+## 📱 セクション構成
+
+1. **ファーストビュー** - 店名とキャッチコピー
+2. **店のこだわり** - コンセプトと創業の想い
+3. **メニュー紹介** - 本格串カツの数々
+4. **店内紹介** - 雰囲気と席数情報
+5. **お客様の声** - レビューと食べログ評価
+6. **アクセス** - 地図と交通アクセス
+7. **ご予約・問い合わせ** - CTA と連絡先
+
+## 🛠️ 技術スタック
+
+- **Next.js 14** - React フレームワーク
+- **TypeScript** - 型安全性
+- **Tailwind CSS** - スタイリング
+- **レスポンシブデザイン** - モバイル・タブレット・デスクトップ対応
+
+## 🚀 開発環境のセットアップ
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# ビルド
+npm run build
+
+# 本番環境での起動
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📍 アクセス情報
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **住所**: 〒 252-0804 神奈川県藤沢市湘南台 1-1-1（湘南台駅前ビル 1 階）
+- **アクセス**: 湘南台駅徒歩 1 分
+- **営業時間**:
+  - 月〜金：17:00〜23:00
+  - 土日祝：16:00〜23:00
+- **電話**: 0466-XX-XXXX
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🍽️ メニュー
 
-## Learn More
+- **串カツ**: 豚肉、牛肉、海老、野菜、チーズ、アスパラなど
+- **おつまみ**: 枝豆、冷奴、ポテトフライ、唐揚げなど
+- **ドリンク**: 生ビール、ハイボール、日本酒、ソフトドリンクなど
 
-To learn more about Next.js, take a look at the following resources:
+## 📞 ご予約・お問い合わせ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+お電話でのご予約を承っております。営業時間内にお気軽にお電話ください。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **電話**: 0466-XX-XXXX
+- **食べログ**: [串カツ酒場 枡や](https://tabelog.com/kanagawa/A1404/A140405/14033139/)
 
-## Deploy on Vercel
+## 🎨 デザインコンセプト
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **温かみのある色合い**: 赤を基調とした温かみのあるデザイン
+- **親しみやすさ**: 大阪の下町の居酒屋のような親しみやすい雰囲気
+- **モダンな UI**: 最新の Web デザイントレンドを取り入れたモダンなインターフェース
+- **アクセシビリティ**: 誰でも使いやすい、アクセシブルなデザイン
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 ライセンス
+
+© 2024 串カツ酒場 枡や. All rights reserved.
