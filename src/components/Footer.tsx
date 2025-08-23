@@ -1,65 +1,81 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-16">
-      <div className="container mx-auto px-6">
-        <div className="grid md:grid-cols-3 gap-12">
+    <footer className="bg-[#532d6b] text-white py-20 relative overflow-hidden">
+      {/* 背景の装飾要素 */}
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#c5a922] via-[#d69e2e] to-[#c5a922]"></div>
+      <div className="absolute top-10 right-10 w-20 h-20 bg-[#c5a922]/10 rounded-full blur-xl"></div>
+      <div className="absolute bottom-10 left-10 w-16 h-16 bg-[#c5a922]/10 rounded-full blur-xl"></div>
+      
+      <div className="container mx-auto px-6 relative z-10">
+        <div className="grid md:grid-cols-4 gap-12">
           <div>
-            <h3 className="text-xl font-medium mb-6 marugame-text-gradient">串かつ枡や</h3>
-            <p className="text-gray-400 leading-relaxed mb-6">
+            <h3 className="text-xl font-medium mb-6 text-[#c5a922] tracking-wide">串かつ枡や</h3>
+            <p className="text-gray-300 leading-relaxed mb-6 text-sm">
               湘南台で本格的な串カツをお楽しみいただける居酒屋です。<br />
               大阪の味をそのまま再現し、地元の方々に愛される店を目指しています。
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-300">
-                <span className="sr-only">Facebook</span>
-                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-                </svg>
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-300">
-                <span className="sr-only">Instagram</span>
-                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.49-3.323-1.297C4.198 14.895 3.708 13.744 3.708 12.447s.49-2.448 1.297-3.323c.875-.807 2.026-1.297 3.323-1.297s2.448.49 3.323 1.297c.807.875 1.297 2.026 1.297 3.323s-.49 2.448-1.297 3.323c-.875.807-2.026 1.297-3.323 1.297zm7.83-9.781c-.49 0-.98.196-1.353.569-.373.373-.569.863-.569 1.353s.196.98.569 1.353c.373.373.863.569 1.353.569s.98-.196 1.353-.569c.373-.373.569-.863.569-1.353s-.196-.98-.569-1.353c-.373-.373-.863-.569-1.353-.569z"/>
-                </svg>
-              </a>
+          </div>
+          
+          <div>
+            <h4 className="text-lg font-medium mb-6 text-white tracking-wide">営業情報</h4>
+            <ul className="space-y-3 text-gray-300 text-sm">
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-[#c5a922] rounded-full mr-3"></span>
+                火〜土：17:00〜22:00
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-[#c5a922] rounded-full mr-3"></span>
+                定休日：日曜日・月曜日
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-[#c5a922] rounded-full mr-3"></span>
+                電話：0466-44-2909
+              </li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 className="text-lg font-medium mb-6 text-white tracking-wide">アクセス</h4>
+            <ul className="space-y-3 text-gray-300 text-sm">
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-[#c5a922] rounded-full mr-3"></span>
+                〒252-0804
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-[#c5a922] rounded-full mr-3"></span>
+                神奈川県藤沢市湘南台2-17-14
+              </li>
+              <li className="flex items-center">
+                <span className="w-2 h-2 bg-[#c5a922] rounded-full mr-3"></span>
+                湘南台駅徒歩5分
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-medium mb-6 text-white tracking-wide">Instagram</h4>
+            <div className="text-center">
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 inline-block">
+                <Image
+                  src="/images/kushikatsu_masuya_qr.png"
+                  alt="Instagram QRコード"
+                  width={100}
+                  height={100}
+                  className="mx-auto mb-3 rounded-lg shadow-lg"
+                />
+                <p className="text-gray-300 text-xs">QRコードをスキャンして<br />Instagramをフォロー</p>
+              </div>
             </div>
-          </div>
-          
-          <div>
-            <h4 className="text-lg font-medium mb-6 text-white">営業情報</h4>
-            <ul className="space-y-3 text-gray-400">
-              <li>火〜土：17:00〜22:00</li>
-              <li>定休日：日曜日・月曜日</li>
-              <li>電話：0466-44-2909</li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="text-lg font-medium mb-6 text-white">アクセス</h4>
-            <ul className="space-y-3 text-gray-400">
-              <li>〒252-0804</li>
-              <li>神奈川県藤沢市湘南台2-17-14</li>
-              <li>湘南台駅徒歩5分</li>
-            </ul>
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-12 pt-8">
+        <div className="border-t border-gray-600/50 mt-16 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
               © 2025 串かつ枡や. All rights reserved.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-300 text-sm">
-                プライバシーポリシー
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-300 text-sm">
-                利用規約
-              </a>
-              <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-300 text-sm">
-                サイトマップ
-              </a>
-            </div>
           </div>
         </div>
       </div>
