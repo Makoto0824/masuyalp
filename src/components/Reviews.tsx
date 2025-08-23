@@ -21,9 +21,9 @@ export default function Reviews() {
               href="https://tabelog.com/kanagawa/A1404/A140405/14033139/"
               target="_blank"
               rel="noopener noreferrer"
-              className="marugame-button text-lg px-10 py-4 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
+              className="marugame-button text-lg px-8 py-4 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300"
             >
-              食べログで詳しく見る
+              食べログで見る
             </a>
           </div>
         </div>
