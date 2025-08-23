@@ -47,12 +47,17 @@ export default function Access() {
           <div className="space-y-8">
             <div className="marugame-card p-8">
               <h3 className="text-xl font-medium mb-4 marugame-text-gradient">地図</h3>
-              <div className="h-64 bg-gradient-to-br from-gray-100 to-gray-200 rounded-lg flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-5xl mb-3 opacity-60">🗺️</div>
-                  <p className="text-gray-500 font-medium">地図準備中</p>
-                  <p className="text-sm text-gray-400 mt-2">Google Mapsで表示予定</p>
-                </div>
+              <div className="h-64 rounded-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3252.4219117066223!2d139.46428011185762!3d35.394791272567126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018516cb44db20b%3A0x8a31291389a081da!2z44CSMjUyLTA4MDQg56We5aWI5bed55yM6Jek5rKi5biC5rmY5Y2X5Y-w77yS5LiB55uu77yR77yX4oiS77yR77yU!5e0!3m2!1sja!2sjp!4v1755958590315!5m2!1sja!2sjp"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="串かつ枡やの地図"
+                ></iframe>
               </div>
             </div>
             

@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="mb-8">
           <Image 
             src="/images/ロゴ横透過.png" 
-            alt="串カツ酒場 枡や" 
+            alt="串かつ枡や" 
             width={300}
             height={100}
             className="mx-auto max-w-[200px] md:max-w-[250px] lg:max-w-[300px]"

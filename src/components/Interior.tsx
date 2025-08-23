@@ -38,9 +38,8 @@ export default function Interior() {
             <div className="marugame-card p-8">
               <h3 className="text-xl font-medium mb-4 marugame-text-gradient">営業時間</h3>
               <ul className="text-gray-600 space-y-2">
-                <li>• 月〜金：17:00〜23:00</li>
-                <li>• 土日祝：16:00〜23:00</li>
-                <li>• 定休日：不定休</li>
+                <li>• 火〜土：17:00〜22:00</li>
+                <li>• 定休日：日曜日・月曜日</li>
               </ul>
             </div>
             
@@ -50,7 +49,6 @@ export default function Interior() {
                 <li>• クレジットカード決済</li>
                 <li>• 電子マネー決済</li>
                 <li>• 禁煙席あり</li>
-                <li>• お子様連れ歓迎</li>
               </ul>
             </div>
           </div>

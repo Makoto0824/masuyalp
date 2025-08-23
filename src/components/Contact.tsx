@@ -81,20 +81,6 @@ export default function Contact() {
               初回ご来店の際は、お電話でのご予約をお勧めいたします。<br />
               混雑時はお待ちいただく場合がございますので、ご了承ください。
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="tel:0466-44-2909"
-                className="marugame-button text-lg px-8 py-4"
-              >
-                お電話でご予約
-              </a>
-              <a
-                href="#access"
-                className="text-gray-600 hover:text-red-600 transition-colors duration-300 text-lg font-medium border-b-2 border-transparent hover:border-red-600 pb-1"
-              >
-                アクセスを見る
-              </a>
-            </div>
           </div>
         </div>
       </div>

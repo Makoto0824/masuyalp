@@ -14,7 +14,7 @@ export default function Header() {
       <div className="container mx-auto px-6">
         <div className="flex justify-between items-center py-6">
           <div className="text-xl font-medium marugame-text-gradient">
-            串カツ酒場 枡や
+            串かつ枡や
           </div>
           
           {/* Desktop Navigation */}

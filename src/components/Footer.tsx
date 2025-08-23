@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-12">
           <div>
-            <h3 className="text-xl font-medium mb-6 marugame-text-gradient">串カツ酒場 枡や</h3>
+            <h3 className="text-xl font-medium mb-6 marugame-text-gradient">串かつ枡や</h3>
             <p className="text-gray-400 leading-relaxed mb-6">
               湘南台で本格的な串カツをお楽しみいただける居酒屋です。<br />
               大阪の味をそのまま再現し、地元の方々に愛される店を目指しています。
@@ -28,10 +28,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-medium mb-6 text-white">営業情報</h4>
             <ul className="space-y-3 text-gray-400">
-              <li>月〜金：17:00〜23:00</li>
-              <li>土日祝：16:00〜23:00</li>
-              <li>定休日：不定休</li>
-              <li>電話：0466-XX-XXXX</li>
+              <li>火〜土：17:00〜22:00</li>
+              <li>定休日：日曜日・月曜日</li>
+              <li>電話：0466-44-2909</li>
             </ul>
           </div>
           
@@ -39,9 +38,8 @@ export default function Footer() {
             <h4 className="text-lg font-medium mb-6 text-white">アクセス</h4>
             <ul className="space-y-3 text-gray-400">
               <li>〒252-0804</li>
-              <li>神奈川県藤沢市湘南台1-1-1</li>
-              <li>湘南台駅前ビル1階</li>
-              <li>湘南台駅徒歩1分</li>
+              <li>神奈川県藤沢市湘南台2-17-14</li>
+              <li>湘南台駅徒歩5分</li>
             </ul>
           </div>
         </div>
@@ -49,7 +47,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 串カツ酒場 枡や. All rights reserved.
+              © 2025 串かつ枡や. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-red-500 transition-colors duration-300 text-sm">

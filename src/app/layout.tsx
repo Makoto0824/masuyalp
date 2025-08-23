@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "串カツ酒場 枡や | 湘南台の本格串カツ",
+        title: "串かつ枡や | 湘南台の本格串カツ",
   description: "湘南台で本格的な串カツをお楽しみください。大阪仕込みの本格串カツと温かいおもてなしで、地元の方々に愛される居酒屋です。",
   keywords: "串カツ, 湘南台, 居酒屋, 大阪, 藤沢, 神奈川",
   openGraph: {
-    title: "串カツ酒場 枡や | 湘南台の本格串カツ",
+    title: "串かつ枡や | 湘南台の本格串カツ",
     description: "湘南台で本格的な串カツをお楽しみください。大阪仕込みの本格串カツと温かいおもてなしで、地元の方々に愛される居酒屋です。",
     type: "website",
     locale: "ja_JP",
