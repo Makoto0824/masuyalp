@@ -39,8 +39,9 @@ export default function Header() {
               アクセス
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
-            <a href="#contact" className="marugame-button px-6 py-2 text-sm">
+            <a href="#contact" className="text-gray-600 hover:text-red-600 transition-colors duration-300 font-medium relative group">
               ご予約
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
             </a>
           </nav>
           
@@ -78,7 +79,7 @@ export default function Header() {
               <a href="#access" className="text-gray-600 hover:text-red-600 transition-colors duration-300 font-medium" onClick={toggleMenu}>
                 アクセス
               </a>
-              <a href="#contact" className="marugame-button text-center" onClick={toggleMenu}>
+              <a href="#contact" className="text-gray-600 hover:text-red-600 transition-colors duration-300 font-medium" onClick={toggleMenu}>
                 ご予約
               </a>
             </div>
