@@ -28,14 +28,6 @@ export default function Access() {
             </div>
             
             <div className="marugame-card p-8">
-              <h3 className="text-xl font-medium mb-4 marugame-text-gradient">営業時間</h3>
-              <ul className="text-gray-600 space-y-2">
-                <li>• 火〜土：17:00〜22:00（L.O. 21:30）</li>
-                <li>• 定休日：日曜日・月曜日</li>
-              </ul>
-            </div>
-            
-            <div className="marugame-card p-8">
               <h3 className="text-xl font-medium mb-4 marugame-text-gradient">駐車場</h3>
               <p className="text-gray-600">
                 近隣のコインパーキングをご利用ください。<br />
@@ -70,33 +62,16 @@ export default function Access() {
                 <li>• 湘南台公園</li>
               </ul>
             </div>
-            
-            <div className="marugame-card p-8">
-              <h3 className="text-xl font-medium mb-4 marugame-text-gradient">お電話でのお問い合わせ</h3>
-              <p className="text-gray-600 mb-2">
-                <span className="font-medium text-lg">0466-44-2909</span>
-              </p>
-              <p className="text-sm text-gray-500">
-                営業時間内にお電話ください。<br />
-                ご予約・お問い合わせ承ります。
-              </p>
-            </div>
           </div>
         </div>
         
         <div className="text-center mt-16">
           <div className="marugame-card p-10 max-w-3xl mx-auto">
             <h3 className="text-2xl font-medium mb-6 marugame-text-gradient">初回ご来店の方へ</h3>
-            <p className="text-gray-600 mb-8 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed">
               湘南台駅の改札を出て、ロータリー方面にお進みください。<br />
               湘南台2-17-14の看板が目印です。
             </p>
-            <a
-              href="#contact"
-              className="marugame-button text-lg px-8 py-4"
-            >
-              ご予約・お問い合わせ
-            </a>
           </div>
         </div>
       </div>
