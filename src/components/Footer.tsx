@@ -56,17 +56,21 @@ export default function Footer() {
 
           <div>
             <h4 className="text-lg font-medium mb-6 text-white tracking-wide">Instagram</h4>
-            <div className="text-center">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 inline-block">
+            <div>
+              <a 
+                href="https://www.instagram.com/kushikatsu_masuya/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block hover:scale-105 transition-transform duration-300"
+              >
                 <Image
-                  src="/images/kushikatsu_masuya_qr.png"
-                  alt="Instagram QRコード"
-                  width={100}
-                  height={100}
-                  className="mx-auto mb-3 rounded-lg shadow-lg"
+                  src="/images/instagram_logo.png"
+                  alt="Instagram"
+                  width={64}
+                  height={64}
+                  className="mb-3 rounded-lg shadow-lg"
                 />
-                <p className="text-gray-300 text-xs">QRコードをスキャンして<br />Instagramをフォロー</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>
