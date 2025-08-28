@@ -238,6 +238,19 @@ export default function Menu() {
               renderMenuItem(item, itemIndex)
             )}
           </div>
+          
+          {/* メニュートップに戻るリンク */}
+          <div className="text-center mt-8 pt-6 border-t border-gray-200">
+            <button
+              onClick={() => setActiveTab(0)}
+              className="inline-flex items-center px-6 py-3 bg-gray-100 text-gray-700 rounded-full font-medium hover:bg-gray-200 transition-colors duration-300"
+            >
+              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              </svg>
+              メニュートップに戻る
+            </button>
+          </div>
         </div>
         
         <div className="text-center mt-20">
