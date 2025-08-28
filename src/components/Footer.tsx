@@ -13,7 +13,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-medium mb-6 text-[#c5a922] tracking-wide">串かつ枡や</h3>
             <p className="text-gray-300 leading-relaxed mb-6 text-sm">
-              湘南台で本格的な串カツをお楽しみいただける居酒屋です。<br />
+              湘南台で本格的な串かつをお楽しみいただける居酒屋です。<br />
               大阪の味をそのまま再現し、地元の方々に愛される店を目指しています。
             </p>
           </div>

@@ -204,7 +204,7 @@ export default function Menu() {
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
           <h2 className="marugame-section-title marugame-text-gradient">メニュー</h2>
-          <p className="marugame-section-subtitle">本格串カツと豊富なドリンク</p>
+          <p className="marugame-section-subtitle">本格串かつと豊富なドリンク</p>
         </div>
         
         {/* タブナビゲーション */}
@@ -248,10 +248,10 @@ export default function Menu() {
               <div>
                 <h4 className="font-medium mb-4 text-gray-800 text-lg flex items-center">
                   <span className="w-2 h-2 bg-[#b41b4b] rounded-full mr-3"></span>
-                  串カツについて
+                  串かつについて
                 </h4>
                 <ul className="space-y-2 text-gray-600">
-                  <li>• 本格的な大阪風串カツ</li>
+                  <li>• 本格的な大阪風串かつ</li>
                   <li>• サクッとした衣とジューシーな具材</li>
                   <li>• 特製ソースでお召し上がりください</li>
                   <li>• お好みで塩や辛子もご用意</li>

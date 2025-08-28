@@ -13,7 +13,7 @@ export default function Reviews() {
               </div>
             </div>
             <p className="text-gray-600 mb-8 leading-relaxed text-lg max-w-2xl mx-auto">
-              多くのお客様にご満足いただいております。本格的な串カツの味と温かいおもてなしで、
+              多くのお客様にご満足いただいております。本格的な串かつの味と温かいおもてなしで、
               リピーターの方も多くいらっしゃいます。
             </p>
             <p className="text-sm text-gray-500 mb-10 italic">※2025年9月現在</p>
