@@ -51,15 +51,13 @@ export default function Access() {
                 ></iframe>
               </div>
             </div>
-          </div>
-        </div>
-        
-        <div className="text-center mt-16">
-          <div className="marugame-card p-10 max-w-3xl mx-auto">
-            <h3 className="text-2xl font-medium mb-6 marugame-text-gradient">初回ご来店の方へ</h3>
-            <p className="text-gray-600 leading-relaxed">
-              湘南台駅の改札を出て、西口D出口へお進みください。バスロータリー前のパラッツォ(パチスロ店)と線路の間の道を線路沿いに直進です。2個目のT字路に当店がございます。
-            </p>
+            
+            <div className="marugame-card p-8">
+              <h3 className="text-xl font-medium mb-4 marugame-text-gradient">初回ご来店の方へ</h3>
+              <p className="text-gray-600 leading-relaxed">
+                湘南台駅の改札を出て、西口D出口へお進みください。バスロータリー前のパラッツォ(パチスロ店)と線路の間の道を線路沿いに直進です。2個目のT字路に当店がございます。
+              </p>
+            </div>
           </div>
         </div>
       </div>
