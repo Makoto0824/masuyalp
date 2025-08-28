@@ -3,7 +3,10 @@ export default function Contact() {
     <section id="contact" className="py-24 bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <h2 className="marugame-section-title marugame-text-gradient text-lg md:text-2xl">ご予約・お問い合わせ</h2>
+          <h2 className="marugame-section-title marugame-text-gradient text-lg md:text-2xl">
+            <span className="block md:inline">ご予約</span>
+            <span className="block md:inline md:before:content-['・']">お問い合わせ</span>
+          </h2>
           <p className="marugame-section-subtitle">お気軽にお電話ください</p>
         </div>
         
