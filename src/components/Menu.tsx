@@ -199,6 +199,13 @@ export default function Menu() {
     }
   };
 
+  const scrollToMenuTop = () => {
+    const menuSection = document.getElementById('menu');
+    if (menuSection) {
+      menuSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="menu" className="py-24 bg-white">
       <div className="container mx-auto px-6">
@@ -242,7 +249,7 @@ export default function Menu() {
           {/* メニュートップに戻るリンク */}
           <div className="text-center mt-8 pt-6 border-t border-gray-200">
             <button
-              onClick={() => setActiveTab(0)}
+              onClick={scrollToMenuTop}
               className="inline-flex items-center px-6 py-3 bg-gray-100 text-gray-700 rounded-full font-medium hover:bg-gray-200 transition-colors duration-300"
             >
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
