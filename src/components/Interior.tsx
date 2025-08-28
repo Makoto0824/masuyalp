@@ -12,16 +12,17 @@ export default function Interior() {
             <div className="marugame-card p-8">
               <h3 className="text-xl font-medium mb-4 marugame-text-gradient">店内の雰囲気</h3>
               <p className="text-gray-600 leading-relaxed">
-                大阪の下町の居酒屋をイメージした温かみのある店内。カウンター席では職人の技を間近で見ることができ、テーブル席ではゆったりとお食事をお楽しみいただけます。
+                ステンドグラスの灯りが彩る大正ロマン風の店内で、串かつを囲み賑やかなひとときを。朱色の壁に包まれた金沢茶室風の個室では、落ち着いた時間を。華やぎと静けさ、二つの空間を楽しめるのが枡やの魅力です。
               </p>
             </div>
             
             <div className="marugame-card p-8">
               <h3 className="text-xl font-medium mb-4 marugame-text-gradient">席数</h3>
               <ul className="text-gray-600 space-y-2">
-                <li>• カウンター席：8席</li>
-                <li>• テーブル席：4席（4名様用）</li>
-                <li>• 合計：約20名様まで</li>
+                <li>• カウンター席：6席</li>
+                <li>• テーブル席：3席（4名様用）</li>
+                <li>• 個室：1席（4~5名様用）</li>
+                <li>• 合計：約22名様まで</li>
               </ul>
             </div>
             

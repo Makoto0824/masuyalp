@@ -30,8 +30,7 @@ export default function Access() {
             <div className="marugame-card p-8">
               <h3 className="text-xl font-medium mb-4 marugame-text-gradient">駐車場</h3>
               <p className="text-gray-600">
-                近隣のコインパーキングをご利用ください。<br />
-                お車でお越しの際は、近隣の駐車場に停めて徒歩でお越しください。
+                お車でお越しの際は、近隣のコインパーキングをご利用下さい。
               </p>
             </div>
           </div>
@@ -52,16 +51,6 @@ export default function Access() {
                 ></iframe>
               </div>
             </div>
-            
-            <div className="marugame-card p-8">
-              <h3 className="text-xl font-medium mb-4 marugame-text-gradient">周辺情報</h3>
-              <ul className="text-gray-600 space-y-2">
-                <li>• 湘南台駅前ロータリー</li>
-                <li>• 湘南台ショッピングセンター</li>
-                <li>• 湘南台図書館</li>
-                <li>• 湘南台公園</li>
-              </ul>
-            </div>
           </div>
         </div>
         
@@ -69,8 +58,7 @@ export default function Access() {
           <div className="marugame-card p-10 max-w-3xl mx-auto">
             <h3 className="text-2xl font-medium mb-6 marugame-text-gradient">初回ご来店の方へ</h3>
             <p className="text-gray-600 leading-relaxed">
-              湘南台駅の改札を出て、ロータリー方面にお進みください。<br />
-              湘南台2-17-14の看板が目印です。
+              湘南台駅の改札を出て、西口D出口へお進みください。バスロータリー前のパラッツォ(パチスロ店)と線路の間の道を線路沿いに直進です。2個目のT字路に当店がございます。
             </p>
           </div>
         </div>
